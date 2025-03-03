@@ -1,4 +1,6 @@
-# TIE4PBI
-This MATLAB script provides an estimation of the fringe visibility of the Transport of Intensity Equation (TIE) for X-ray Propagation-Based Imaging (PBI).
-This script takes into account the imaging system's point spread function. You need to provide the detector and the source point spread functions' FWHM.
-This allows for an estimation of optimal geometry before setting the PBI scan.
+This MATLAB script estimates fringe visibility based on the Transport of Intensity Equation (TIE) in X-ray Propagation-Based Imaging (PBI). It accounts for the imaging system’s point spread function (PSF) by incorporating the full-width at half-maximum (FWHM) of both the source and detector PSFs.
+
+By adjusting these parameters, the script enables pre-scan optimization of the imaging geometry, helping to determine the optimal source-to-object (SOD) and source-to-detector (SDD) distances before performing a PBI scan.
+
+Below is an example of the code output, where fringe visibilities across a range of geometries are visualized using a contour plot.
+![fringe visibility]([images/my-image.png](https://github.com/kiataj/TIE4PBI/blob/main/images/Fringe%20visibility.png))
