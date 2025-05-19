@@ -4,4 +4,7 @@ By adjusting these parameters, the script enables pre-scan optimization of the i
 
 Below is an example of the code output, where fringe visibilities across a range of geometries are visualized using a contour plot.
 
+If you used this code to optimize your PBI geometry please cite this [paper](https://ieeexplore.ieee.org/abstract/document/10542137).
+
+
 ![Fringe visibility](images/fringe_visibility.png)
